@@ -1,0 +1,109 @@
+body {
+	background-color: #0d1b2a;
+}
+.main {
+	font-family: sans-serif;
+}
+h1 {
+	color: #e0fbfc;
+	text-align: center;
+}
+.backdrop {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	backdrop-filter: blur(100px);
+	-webkit-backdrop-filter: blur(50px);
+	z-index: 2;
+	pointer-events: none;
+	background-color: #0d1b2a80;
+}
+p {
+	color: #a2d2ff;
+}
+.accent1 {
+	color: #3282b8;
+}
+div.main {
+	border: 2px solid #525288;
+	border-radius: 15px;
+	padding: 50px;
+	margin: auto;
+	width: 800px;
+	position: relative;
+	background-color: #2d3b4a80;
+	z-index: 3;
+}
+.boxContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	box-sizing: content-box;
+	margin-top: 50px;
+}
+#morseBox,
+#latinBox {
+	border: 2px solid #525288;
+	border-radius: 15px;
+	background-color: #0d1b2a80;
+	padding: 20px;
+	flex: 0px 0px 250px;
+	min-height: 250px;
+	width: 250px;
+	box-sizing: content-box;
+}
+
+/* Background blurred circles */
+#circle1 {
+	width: 500px;
+	height: 500px;
+	background: #e1fffa;
+	border-radius: 50%;
+	position: fixed;
+	left: 600px;
+	top: 150px;
+	z-index: 1;
+}
+/* Might still use these, just testing one circle for a bit 
+#circle2 {
+	width: 300px;
+	height: 300px;
+	background: #e1fffa;
+	border-radius: 50%;
+	position: fixed;
+	left: 600px;
+	top: 50px;
+	z-index: 1;
+}
+#circle3 {
+	width: 300px;
+	height: 300px;
+	background: #e1fffa;
+	border-radius: 50%;
+	position: fixed;
+	left: 300px;
+	top: 200px;
+	z-index: 1;
+}
+#circle4 {
+	width: 200px;
+	height: 200px;
+	background: #e1fffa;
+	border-radius: 50%;
+	position: fixed;
+	left: 500px;
+	top: 100px;
+	z-index: 1;
+}
+#circle5 {
+	width: 200px;
+	height: 200px;
+	background: #e1fffa;
+	border-radius: 50%;
+	position: fixed;
+	left: 800px;
+	top: 200px;
+	z-index: 1;
+} */
