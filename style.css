@@ -36,11 +36,14 @@ div.main {
 	background-color: #2d3b4a80;
 	z-index: 3;
 }
+.morseInstructions {
+	font-family: monospace;
+}
 .boxContainer {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	box-sizing: content-box;
+	box-sizing: border-box;
 	margin-top: 50px;
 }
 #morseBox,
@@ -49,10 +52,17 @@ div.main {
 	border-radius: 15px;
 	background-color: #0d1b2a80;
 	padding: 20px;
-	flex: 0px 0px 250px;
-	min-height: 250px;
-	width: 250px;
-	box-sizing: content-box;
+	flex: 0px 0px 300px;
+	min-height: 300px;
+	width: 300px;
+	box-sizing: border-box;
+	color: #a2d2ff;
+}
+#latinBox {
+	font-family: Georgia;
+}
+#morseBox {
+	font-family: monospace;
 }
 
 /* Background blurred circles */
