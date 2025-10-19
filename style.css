@@ -15,10 +15,15 @@ h1 {
 	width: 100vw;
 	height: 100vh;
 	backdrop-filter: blur(100px);
-	-webkit-backdrop-filter: blur(50px);
 	z-index: 2;
 	pointer-events: none;
 	background-color: #0d1b2a80;
+}
+a:link {
+	color: #a2d2ff;
+}
+a:visited {
+	color: #7292bb;
 }
 p {
 	color: #a2d2ff;
@@ -58,19 +63,14 @@ div.main {
 	width: 300px;
 	box-sizing: border-box;
 	color: #a2d2ff;
-	p {
-		width: 100%;
-		height: 100%;
-	}
-}
-#latinBox {
-	font-family: Georgia;
-}
-#morseBox {
 	font-family: monospace;
 }
+#morseBox p,
+#latinBox p {
+	width: 100%;
+	height: 100%;
+}
 
-/* Background blurred circles */
 #circle1 {
 	width: 500px;
 	height: 500px;
@@ -81,44 +81,3 @@ div.main {
 	top: 150px;
 	z-index: 1;
 }
-/* Might still use these, just testing one circle for a bit 
-#circle2 {
-	width: 300px;
-	height: 300px;
-	background: #e1fffa;
-	border-radius: 50%;
-	position: fixed;
-	left: 600px;
-	top: 50px;
-	z-index: 1;
-}
-#circle3 {
-	width: 300px;
-	height: 300px;
-	background: #e1fffa;
-	border-radius: 50%;
-	position: fixed;
-	left: 300px;
-	top: 200px;
-	z-index: 1;
-}
-#circle4 {
-	width: 200px;
-	height: 200px;
-	background: #e1fffa;
-	border-radius: 50%;
-	position: fixed;
-	left: 500px;
-	top: 100px;
-	z-index: 1;
-}
-#circle5 {
-	width: 200px;
-	height: 200px;
-	background: #e1fffa;
-	border-radius: 50%;
-	position: fixed;
-	left: 800px;
-	top: 200px;
-	z-index: 1;
-} */
